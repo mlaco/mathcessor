@@ -43,6 +43,9 @@ animals.square_root_of_thirty_six # => 'chickies' <- animals[6]
 
 # Cube root
 animals.cube_root_of_twenty_seven # => 'cowwies' <- animals[3]
+
+# Factorial
+animals.factorial_three # => 'chickies' <- animals[6]
 ```
 
 ## Contributing
