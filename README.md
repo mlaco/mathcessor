@@ -19,6 +19,8 @@ Or install it yourself as:
     $ gem install mathcessor
 
 ## Usage
+require 'mathcessor';class Goo; using Mathcessor; def your_awesome_method; p ['kitties', 'puppies', 'piggies', 'cowwies', 'donkies', 'sheepies', 'chickies', 'bears'].square_root_of_forty_nine; end; end; Goo.new.your_awesome_method # => 'chickies'
+
 
 ```ruby
 class Goo
