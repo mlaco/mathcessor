@@ -48,6 +48,9 @@ animals.cube_root_of_twenty_seven # => 'cowwies' <- animals[3]
 animals.factorial_three # => 'chickies' <- animals[6]
 ```
 
+## Special Thanks
+Thank you @olivierlacan for helping me get this working!
+
 ## Contributing
 
 1. Fork it ( https://github.com/mlaco/mathcessor/fork )
