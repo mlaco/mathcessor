@@ -39,10 +39,10 @@ Goo.new.your_awesome_method # => 'chickies'
 animals = ['kitties', 'puppies', 'piggies', 'cowwies', 'donkies', 'sheepies', 'chickies', 'bears']
 
 # Square root
-animals.square_root_of_thirty_six # => 'chickies'
+animals.square_root_of_thirty_six # => 'chickies' <- animals[6]
 
 # Cube root
-animals.cube_root_of_twenty_seven # => 'cowwies'
+animals.cube_root_of_twenty_seven # => 'cowwies' <- animals[3]
 ```
 
 ## Contributing
