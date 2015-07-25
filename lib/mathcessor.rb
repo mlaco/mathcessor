@@ -5,7 +5,7 @@ require "numbers_in_words/duck_punch"
 module Mathcessor
   METHOD_FAMILIES = {
     square_root_of: Proc.new {|q| Math.sqrt(q).to_i},
-    cube_root_of:   Proc.new {|q| (q ** (1.0/3)).to_i},
+    cube_root_of:   Proc.new {|q| (q ** (1.0/3)).round},
     factorial:      Proc.new {|q| ((1..q).inject(:*)).to_i}
   }
   refine Array do
