@@ -24,19 +24,15 @@ Or install it yourself as:
 class Goo
   using Mathcessor
   def your_awesome_method
-    p ['kitties',
-      'puppies',
-      'piggies',
-      'cowwies',
-      'donkies',
-      'sheepies',
-      'chickies',
-      'bears'].square_root_of_thirty_six
+    p ['kitties', 'puppies', 'piggies', 'cowwies',
+      'donkies', 'sheepies', 'chickies', 'bears']
+      .square_root_of_thirty_six
   end
 end
 Goo.new.your_awesome_method # => 'chickies'
 
-animals = ['kitties', 'puppies', 'piggies', 'cowwies', 'donkies', 'sheepies', 'chickies', 'bears']
+animals = ['kitties', 'puppies', 'piggies', 'cowwies',
+           'donkies', 'sheepies', 'chickies', 'bears']
 
 # Square root
 animals.square_root_of_four # => 'piggies' <- animals[2]
