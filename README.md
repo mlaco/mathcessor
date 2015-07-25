@@ -1,6 +1,6 @@
 # Mathcessor
 
-TODO: Write a gem description
+Ridiculous mathy methods for array element retrieval!
 
 ## Installation
 
@@ -20,7 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+class Goo
+  using Mathcessor
+  def your_awesome_method
+    p ['kitties', 'puppies', 'piggies', 'cowwies', 'donkies', 'sheepies', 'chickies', 'bears'].square_root_of_thirty_six
+  end
+end
+Goo.new.your_awesome_method # => 'chickies'
+```
 
 ## Contributing
 
