@@ -36,11 +36,13 @@ class Goo
 end
 Goo.new.your_awesome_method # => 'chickies'
 
+animals = ['kitties', 'puppies', 'piggies', 'cowwies', 'donkies', 'sheepies', 'chickies', 'bears']
+
 # Square root
-['kitties', 'puppies', 'piggies', 'cowwies', 'donkies', 'sheepies', 'chickies', 'bears'].square_root_of_thirty_six # => 'chickies'
+animals.square_root_of_thirty_six # => 'chickies'
 
 # Cube root
-['kitties', 'puppies', 'piggies', 'cowwies', 'donkies', 'sheepies', 'chickies', 'bears'].cube_root_of_twenty_seven # => 'cowwies'
+animals.cube_root_of_twenty_seven # => 'cowwies'
 ```
 
 ## Contributing
