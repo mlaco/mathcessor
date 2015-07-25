@@ -44,9 +44,9 @@ animals.cube_root_of_twenty_seven # => 'cowwies' <- animals[3]
 animals.factorial_three # => 'chickies' <- animals[6]
 
 # Works for larger numbers, too!
-['a', 'b', 'c', 'd', 'e', 'f',
- 'g', 'h', 'i', 'j', 'k', 'l',
- 'm', 'n', 'o']
+['a', 'b', 'c', 'd', 'e',
+ 'f', 'g', 'h', 'i', 'j', 
+ 'k', 'l', 'm', 'n', 'o']
 .cube_root_of_one_thousand_seven_hundred_twenty_eight # => "m"
 
 ```
